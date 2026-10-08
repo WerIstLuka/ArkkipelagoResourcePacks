@@ -3,4 +3,4 @@
 pushd src > /dev/null
 zip ../Arkkipelago.zip -T -r -9 -- *
 popd > /dev/null
-sha1sum Arkkipelago.zip
+sha1sum Arkkipelago.zip | tee sha1sum.txt
